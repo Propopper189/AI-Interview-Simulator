@@ -225,4 +225,4 @@ npm run build
 
 ---
 
-Project owner in UI: **Aquib Jawaid Ansari**.
+Project owner : **Aquib Jawaid Ansari**.
