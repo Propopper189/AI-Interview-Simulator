@@ -1,0 +1,8 @@
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install --upgrade pip
+pip install -r requirements.txt
+
+$env:NVIDIA_API_KEY="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"
+$env:NVIDIA_MODEL="meta/llama-3.1-8b-instruct"
+python backend.py
