@@ -45,7 +45,7 @@ npm --version
 ### Step A — Clone
 
 ```bash
-git clone https://github.com/Propopper189/AI_INTERVIEW_SIMULATOR.git
+git clone https://github.com/Propopper189/AI_INTERVIEW_SIMULATOR.git](https://github.com/Propopper189/AI-Interview-Simulator
 cd AI_INTERVIEW_SIMULATOR
 ```
 
