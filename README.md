@@ -63,7 +63,7 @@ npm --version
 
 ```bash
 git clone https://github.com/Propopper189/AI-Interview-Simulator
-cd AI_INTERVIEW_SIMULATOR
+cd AI-Interview-Simulator
 ```
 
 ### Step B — Backend setup
