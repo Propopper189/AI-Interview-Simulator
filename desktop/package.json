@@ -1,0 +1,39 @@
+{
+  "name": "ai-interview-simulator-desktop",
+  "version": "1.0.0",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "start:desktop": "npm --prefix ../frontend run build && electron .",
+    "start:desktop:dev": "electron .",
+    "build:win11": "electron-builder --win nsis"
+  },
+  "devDependencies": {
+    "electron": "^31.0.2",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.ai.interview.simulator",
+    "productName": "AI Interview Simulator",
+    "files": [
+      "main.js"
+    ],
+    "extraResources": [
+      {
+        "from": "build-resources/AIInterviewBackend.exe",
+        "to": "AIInterviewBackend.exe"
+      },
+      {
+        "from": "build-resources/frontend",
+        "to": "frontend"
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "icon": "../frontend/public/icon.png"
+    }
+  }
+}
